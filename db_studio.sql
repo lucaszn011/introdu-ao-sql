@@ -39,9 +39,9 @@ CREATE TABLE gravacoes (
         REFERENCES genero (fd_gen)
 );
 
--- Inserção de dados de exemplo
+-- Inserção de dados fictícios para teste
 INSERT INTO artistas (id, nome_art, telefone_art, email_art, cpf_art)
-VALUES (100, 'Lucas', '99998888', 'lucazinlucas813@gmail.com', '999999999');
+VALUES (100, 'Artista Exemplo', '11999998888', 'artista@example.invalid', '00000000000');
 
 INSERT INTO genero (fd_gen, nome_gen)
 VALUES (1000, 'sertanejo');
