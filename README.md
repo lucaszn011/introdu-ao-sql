@@ -1,6 +1,8 @@
 # Introdução ao SQL
 
-Repositório com exercícios e comandos usados durante meus estudos de banco de dados.
+Repositório de estudos com um script para praticar a criação de tabelas e o relacionamento de dados no PostgreSQL.
+
+O exemplo utiliza artistas, gêneros musicais e gravações.
 
 ## Tecnologias
 
@@ -8,18 +10,25 @@ Repositório com exercícios e comandos usados durante meus estudos de banco de 
 - SQL
 - pgAdmin
 
-## O que pratiquei
+## Conceitos praticados
 
 - Criação de banco de dados e tabelas
-- Chaves primárias e estrangeiras
-- Restrição de valores únicos
-- Relacionamento entre tabelas
-- Inserção e consulta de dados
+- Chaves primárias (`PRIMARY KEY`)
+- Chaves estrangeiras (`FOREIGN KEY`)
+- Restrição de unicidade (`UNIQUE`)
+- Inserção de registros (`INSERT INTO`)
+- Consulta de dados (`SELECT`)
 
 ## Arquivo
 
-- `db_studio.sql`: script de estudo com tabelas de artistas, gêneros musicais e gravações.
+- `db_studio.sql`: script com a estrutura das tabelas, dados de exemplo e consultas.
 
-**Como executar:** crie o banco de dados primeiro. Depois, conecte-se a ele no pgAdmin e execute os comandos de criação das tabelas e inserção de dados. O script deve ser executado uma vez em um banco vazio.
+## Como executar
 
-Projeto acadêmico desenvolvido durante meus estudos de SQL.
+1. Execute a instrução de criação do banco de dados, caso ainda não exista.
+2. No pgAdmin, conecte-se ao banco `db_studio`.
+3. Execute as instruções restantes do arquivo.
+
+O script foi preparado para um banco de estudos vazio. Evite executá-lo novamente sobre tabelas já criadas.
+
+Projeto acadêmico de prática dos fundamentos de SQL.
