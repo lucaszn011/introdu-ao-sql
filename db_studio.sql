@@ -1,12 +1,10 @@
--- Banco de dados para praticar criação de tabelas e relacionamentos.
--- Execute CREATE DATABASE uma vez. Depois conecte-se a db_studio
--- no pgAdmin e execute o restante do arquivo.
-
-CREATE DATABASE db_studio
-    WITH
-    OWNER = postgres
-    ENCODING = 'UTF8'
-    CONNECTION LIMIT = -1;
+-- Projeto de introdução ao SQL - PostgreSQL
+-- Antes de executar este arquivo:
+-- 1. Crie um banco chamado db_studio pelo pgAdmin.
+-- 2. Conecte-se ao banco db_studio.
+-- 3. Execute este script para criar as tabelas, inserir os dados
+--    fictícios e realizar as consultas.
+-- Este arquivo não cria o banco de dados.
 
 -- Tabela de artistas
 CREATE TABLE artistas (
